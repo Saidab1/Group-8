@@ -1,0 +1,187 @@
+body, html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#logo{
+    max-width:60%;
+    height:auto;  
+    
+}
+.Account{
+    display:grid;
+    grid-template-columns: [start] 300px [info-start] 1fr [info-end];
+    grid-template-rows: 50px 50px 150px 100px;
+    width: 60%;
+    margin:auto;
+    padding-top: 100px;
+}
+.statistics{
+    display:flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    grid-row-start:2 ;
+    grid-column-start:2 ;
+
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    grid-column-start: 2;
+    grid-row-start:3 ;
+    
+    
+}
+
+.stories{
+    display:flex;
+    flex-direction:row;
+    grid-column:start/info-end;
+    grid-row:4;
+}
+
+.Account-btn
+{
+    grid-column-start:2 ;
+    grid-row-start: 1;
+}
+
+
+.Instagram-stories{
+    max-width:50%;
+    height:auto;
+}
+
+#emoji{
+    max-width:5%;
+    height:auto;
+}
+.container{
+    height:100vh;
+    background-color: #FAFAFA;
+}
+
+
+
+
+.follow-btn{
+    display:inline;
+    padding:5px 10px;
+    background: #3897F0;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight: 300;
+}
+#follow{
+    color:#FFFFFF;
+}
+#account-name{
+    display:inline;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #003569;
+
+}
+
+.info{
+    padding: 0;
+    margin:0;
+    line-height:30px;
+    
+}
+.story-info{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width:768px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+    }
+
+    .Account {
+        display: grid;
+        grid-template-columns: [start] 200px [info-start] 1fr [info-end];
+        grid-template-rows: 180px 150px 120px 100px;
+        width: 90%;
+        }
+        
+        .description {
+        grid-column: start / info-end;
+        grid-row-start: 2;
+        }
+        
+        .statistics {
+        grid-row-start: 4;
+        grid-column: start / info-end;
+        width:100%;
+        border-top: 1px solid #DBDBDB;;
+        border-bottom: 1px solid #DBDBDB;;
+        align-items: center;
+        display:flex;
+        justify-content: space-around;
+
+        }
+        
+        .Account-btn {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        place-self:center stretch;
+        display:flex;
+        flex-direction: column;
+        }
+        
+        .stories {
+        display: flex;
+        grid-column: start / info-end;
+        grid-row: 3;
+        }
+    #account-name{
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 70px;
+
+    }
+    .follow-btn{
+        padding:8px 8px;
+        background: #3897F0;
+        border-radius: 4px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size:14px;
+        font-weight: 300;
+        width: 20%;
+    }
+    .numbers{
+        width: 10%;
+        text-align: center;
+    }
+    span{
+        opacity: 0.5;
+    }
+    
+   
+}
+
+
