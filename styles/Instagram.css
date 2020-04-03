@@ -1,0 +1,419 @@
+body, html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+#logo{
+    max-width:60%;
+    height:auto;  
+    
+}
+.Account{
+    display:grid;
+    grid-template-columns: [start] 300px [info-start] 1fr [info-end];
+    grid-template-rows: 50px 50px 150px 100px;
+    width: 100%;
+    margin:auto;
+    margin-top: 37px;
+    max-width: 935px;
+}
+.statistics{
+    display:flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    grid-row-start:2 ;
+    grid-column-start:2 ;
+
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    grid-column-start: 2;
+    grid-row-start:3 ;
+    
+    
+}
+
+.stories{
+    place-self: center center;
+    width: 100%;
+    max-width: 708px;
+    display:flex;
+    flex-direction:row;
+    grid-column:start/info-end;
+    grid-row:4;
+}
+
+.Account-btn
+{
+    grid-column-start:2 ;
+    grid-row-start: 1;
+}
+
+
+.Instagram-stories{
+    max-width:50%;
+    height:auto;
+}
+
+#emoji{
+    max-width:5%;
+    height:auto;
+}
+.container{
+    height:100vh;
+    background-color: #FAFAFA;
+}
+
+
+
+
+.follow-btn{
+    display:inline;
+    padding:5px 10px;
+    background: #3897F0;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight: 300;
+}
+#follow{
+    color:#FFFFFF;
+}
+#account-name{
+    display:inline;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #003569;
+
+}
+
+.info{
+    padding: 0;
+    margin:0;
+    line-height:30px;
+    
+}
+.story-info{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight: 300;
+}
+
+
+.photo-gallery * {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;  
+    width: 100%;
+}
+
+.gallery-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 53px;   
+}
+
+.gallery-sections-icons {
+    display: none;
+}
+
+.gallery-sections-names {
+    display: flex;
+    width: 310px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    
+}
+
+.section-name {
+    padding-left: 45px;
+}
+
+.section-name .border-section {
+    border-top: 1px solid #262626;
+}
+
+.border-top {
+    border-top:1px solid #262626;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.photos-container {
+    display: grid;
+    max-width: 935px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 28px 28px;
+    align-self: center;
+}
+
+
+
+.photos-container img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar {
+    height: 77px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 0px;
+    justify-content: center;
+  }
+  
+  .nav-bar-content {
+    display: flex;
+    width: 975px;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  .instagram-logo {
+    display: flex;
+    width: 160.12px;
+    justify-content: space-between;
+  }
+  
+  .img-2 {
+    width: 103px;
+    height: 29px;
+  }
+  
+  .img-1 {
+    width: 24px;
+    height: 24px;
+  }
+  
+  input {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 215px;
+    height: 28px;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    color: #999999;
+  }
+  .user-login button {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #3897f0;
+    border-radius: 4px;
+    padding: 5px 10px 7px 10px;
+    border-style: none;
+    margin-right: 14px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .sign-up {
+    color: #3897f0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  
+  footer {
+    display: flex;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 975px;
+    margin: auto;
+  }
+  
+  .footer-nav {
+    display: flex;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+  
+  .footer-nav li {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #003569;
+    margin-right: 16px;
+  }
+  
+  .footer-copyright {
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+  }
+
+@media only screen and (max-device-width:1023px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+    }
+
+    .Account {
+        display: grid;
+        grid-template-columns: [start] 200px [info-start] 1fr [info-end];
+        grid-template-rows: 180px 150px 120px 100px;
+        margin-top: 24px;
+        width: 90%;
+        }
+        
+        .description {
+        grid-column: start / info-end;
+        grid-row-start: 2;
+        }
+        
+        .statistics {
+        grid-row-start: 4;
+        grid-column: start / info-end;
+        width:100%;
+        border-top: 1px solid #DBDBDB;;
+        border-bottom: 1px solid #DBDBDB;;
+        align-items: center;
+        display:flex;
+        justify-content: space-around;
+
+        }
+        
+        .Account-btn {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        place-self:center stretch;
+        display:flex;
+        flex-direction: column;
+        }
+        
+        .stories {
+        display: flex;
+        grid-column: start / info-end;
+        grid-row: 3;
+        }
+    #account-name{
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        line-height: 70px;
+
+    }
+    .follow-btn{
+        padding:8px 8px;
+        background: #3897F0;
+        border-radius: 4px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size:14px;
+        font-weight: 300;
+        width: 20%;
+    }
+    .numbers{
+        width: 10%;
+        text-align: center;
+    }
+    span{
+        opacity: 0.5;
+    }
+    
+    .gallery-navbar {
+        display: grid;
+        width: 100%;
+        max-width: 935px;
+        grid-template-columns: repeat(3, 33.3%);
+        height: 44px;
+        margin-top: 0;
+    }
+
+
+    .gallery-sections-icons {
+        display: grid;
+        place-self: center center;
+    }
+    
+    .gallery-sections-names {
+        display: none;
+    }
+
+    .photos-container {
+        grid-gap: 3px 3px;
+    }
+
+    form {
+        display: none;
+      }
+    
+      .nav-bar-content {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    
+      .instagram-logo {
+        display: flex;
+        width: 160.12px;
+        justify-content: unset;
+      }
+    
+      .img-1 {
+        margin-right: 5%;
+      }
+    
+      .footer-content {
+        width: 345px;
+      }
+    
+      .footer-nav {
+        flex-wrap: wrap;
+      }
+    
+      .footer-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .footer-copyright {
+        text-align: center;
+      }
+}
+
+
